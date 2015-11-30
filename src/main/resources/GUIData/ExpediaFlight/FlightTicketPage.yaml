@@ -1,0 +1,33 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+pageTitle:
+  US: "Expedia 智游网 旅游预订：度假、廉价航班、航空机票、票价优惠"
+  
+elements:
+  flightLink:
+    locators:
+      US: "css=#tab-flight-tab"
+      
+  flightFromTextField:
+    locators:
+      US: "css=#flight-origin" 
+  flightToTextField:
+    locators:
+      US: "css=#flight-destination"
+      
+  departingDateTextField:
+    locators:
+      US: "css=#flight-departing" 
+  returningDateTextField:
+    locators:
+      US: "css=#flight-returning"
+  searchButton:
+    locators:
+      US: "css=#search-button"
+  
+pageValidators: [
+  flightLink.isVisible  
+  ]
+    
+    
+            
+

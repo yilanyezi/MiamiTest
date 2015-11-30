@@ -1,0 +1,23 @@
+baseClass: "com.paypal.selion.testcomponents.BasicPageImpl"
+pageTitle:
+  US: "BJS 至 SFO 的机票 | Expedia"
+  
+elements:
+  sortBySelectList:
+    locators: 
+      US: "css=select[name='sort']"
+  declineHotelBookingLink:
+    locators:
+      US: "css=#forcedChoiceNoThanks"  
+      
+  resultsContainer:
+    locators:
+      US: "css=li[id^='flightModule']"
+    containerElements:
+      selectButton:
+        locators:
+          US: "css=.btn-secondary"
+      durationLabel:
+        locators:
+          US: "css=.primary.duration-emphasis"
+        
