@@ -21,7 +21,6 @@ public class ReviewTripPageEXT extends ReviewTripPage {
 		super(siteLocale);
 	}
 	
-	private String reviewPageTitle = "Review";
 	
 	/**
 	 * switch window method
@@ -43,7 +42,7 @@ public class ReviewTripPageEXT extends ReviewTripPage {
 	 * check test result page i.e. review trip page
 	 */
 	public void ReviewTripDetails() {
-		//getReviewTripLabel().getText().contains(reviewPageTitle);
+		
 		switchWindow();
 		System.out.println("Flight Booked successfully and rewied!");
 	}

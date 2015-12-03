@@ -20,7 +20,7 @@ import com.paypal.selion.platform.utilities.WebDriverWaitUtils;
  * @author mousumisen
  *
  */
-public class BookingCheapestAndShortestDurationFlight {
+public class FlightTicketTest {
 	private String fromFlight = "Beiji";
 	private String toFlight = "San Fran";
 	private Date departureDate;
